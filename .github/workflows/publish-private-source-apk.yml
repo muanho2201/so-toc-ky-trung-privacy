@@ -1,4 +1,5 @@
 name: Publish private source APK
+# Trigger build after shorthand drawing update
 
 on:
   push:
