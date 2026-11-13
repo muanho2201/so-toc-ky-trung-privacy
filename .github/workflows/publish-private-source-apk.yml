@@ -1,6 +1,11 @@
 name: Publish private source APK
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/publish-private-source-apk.yml"
   workflow_dispatch:
 
 permissions:
